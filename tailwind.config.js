@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'body': ['Inter']
+      'body': ['"Copyright (C) H&Co | typography.com"']
     }
   },
   plugins: [],

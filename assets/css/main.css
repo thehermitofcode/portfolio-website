@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Copyright (C) H&Co | typography.com';
+    font-style: normal;
+    font-weight: 400;
+    src: url('~assets/fonts/GothamSSm-Book_Web.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Copyright (C) H&Co | typography.com';
+    font-style: normal;
+    font-weight: 700;
+    src: url('~assets/fonts/GothamSSm-Medium_Web.ttf') format('truetype');
+}

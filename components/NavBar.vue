@@ -1,7 +1,7 @@
 <template>
   <nav class="grid grid-cols-2 mt-7">
     <div>
-      <img src="~/assets/img/profile.jpg" alt="profile-picture" />
+      <img src="~/assets/img/profile.png" alt="profile-picture" />
     </div>
     <div class="self-center justify-self-end">
       <button

@@ -1,5 +1,5 @@
 <template>
-  <nav class="grid grid-cols-2 mt-5">
+  <nav class="grid grid-cols-2 mt-7">
       <div>
           <img src="~/assets/img/profile.jpg" alt="profile-picture">
       </div>
@@ -12,13 +12,7 @@
 <script>
 export default {
     data() {
-        return ''
+        return {}
     }
 }
 </script>
-
-
-
-<style>
-
-</style>

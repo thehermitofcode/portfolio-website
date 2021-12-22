@@ -107,7 +107,7 @@
               cursor-pointer
             "
           >
-            <p>GitHub</p>
+            <a href="https://www.github.com/thehermitofcode" target="_blank">GitHub</a>
           </div>
           <div
             class="
@@ -119,7 +119,7 @@
               cursor-pointer
             "
           >
-            <p>Twitter</p>
+            <a href="https://www.twitter.com/kanunonso_" target="_blank">Twitter</a>
           </div>
         </div>
       </section>

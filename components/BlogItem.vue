@@ -6,19 +6,31 @@
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet"
     />
-    <h2 class="font-body text-lg font-bold tracking-normal">Setting up local fonts in Tailwind CSS</h2>
+    <h2 class="font-body text-lg font-bold tracking-normal">{{ title }}</h2>
     <div class="font-blog">
-    <p class="text-base mt-1">
-      How to load local fonts from your project directory and use in your
-      projects.
-    </p>
-    <a class="text-sm underline text-gray-500 mt-2 inline-block" href="#">Read this article</a>
+    <p class="text-base mt-1">{{ description }}</p>
+    <a :href="slug" class="text-sm underline text-gray-500 mt-2 inline-block">Read this article</a>
     </div>
   </section>
 </template>
 
 <script>
-export default {}
+export default {
+    props: {
+        title: {
+            type: String,
+            default: ''
+        },
+        description: {
+            type: String,
+            default: ''
+        },
+        slug: {
+            type: String,
+            default: ''
+        },
+    }
+}
 </script>
 
 <style>

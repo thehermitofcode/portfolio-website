@@ -12,8 +12,8 @@
       I generally write about software developement, exciting web technologies
       and new ways to look at coding and programming in general.
     </p>
-    <BlogItem />
-    <BlogItem />
+    <BlogItem title="Hi" description="This is a test" slug="http://me.com" />
+
   </section>
 </template>
 

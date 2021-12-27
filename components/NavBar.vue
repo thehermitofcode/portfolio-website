@@ -41,7 +41,7 @@
         "
       >
       
-        <div class="fixed inset-0 backdrop-blur-sm"></div>
+        <div class="fixed inset-0 bg-black/[.05] backdrop-blur-sm"></div>
         <div
           class="relative bg-white w-80 h-screen max-w-[calc(100% - 3rem)] p-6"
         >

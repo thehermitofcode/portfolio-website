@@ -13,5 +13,5 @@ module.exports = {
       'blog': ['Inter']
     }
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }

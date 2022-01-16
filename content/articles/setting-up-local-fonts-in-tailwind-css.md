@@ -1,7 +1,6 @@
-```
+---
 title: Setting up local fonts in Tailwind CSS
 description: 'How to load local fonts from your project directory and use in your projects.'
-```
-## Writing content
+author: Kanu Chukwunonso
+---
 
-Learn how to write your `content/`, supporting Markdown, YAML, JSON and CSV.

@@ -9,7 +9,7 @@
     <h2 class="font-body text-lg font-bold tracking-normal">{{ title }}</h2>
     <div class="font-blog">
     <p class="text-base mt-1">{{ description }}</p>
-    <a :href="slug" class="text-sm underline text-gray-500 mt-2 inline-block">Read this article</a>
+    <nuxt-link :to="path" class="text-sm underline text-gray-500 mt-2 inline-block">Read this article</nuxt-link>
     </div>
   </section>
 </template>
@@ -25,7 +25,7 @@ export default {
             type: String,
             default: ''
         },
-        slug: {
+        path: {
             type: String,
             default: ''
         },

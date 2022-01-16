@@ -1,8 +1,8 @@
 <template>
   <nav class="grid grid-cols-2 mt-7">
-    <div>
+    <nuxt-link to='/'>
       <img src="~/assets/img/profile.png" alt="profile-picture" />
-    </div>
+    </nuxt-link>
     <div class="self-center justify-self-end">
       <button
         class="
@@ -73,6 +73,7 @@
               </svg>
             </div>
           </div>
+          <nuxt-link to='/projects'>
           <div
             class="
               hover:bg-[#f0f0f0]
@@ -83,20 +84,25 @@
               cursor-pointer
             "
           >
-            <p>Projects</p>
+            <nuxt-link to='/projects'>Projects</nuxt-link>
           </div>
-          <div
-            class="
-              hover:bg-[#f0f0f0]
-              py-2
-              mt-3
-              pl-4
-              rounded-[12px]
-              cursor-pointer
-            "
-          >
-            <p>Articles</p>
-          </div>
+          </nuxt-link>
+          <nuxt-link to='/articles'>
+            <div
+              class="
+                hover:bg-[#f0f0f0]
+                py-2
+                mt-3
+                pl-4
+                rounded-[12px]
+                cursor-pointer
+              "
+            >
+              <nuxt-link to='/articles'>Articles</nuxt-link>
+            </div>
+          </nuxt-link>
+
+          <a href="https://www.github.com/thehermitofcode" target="_blank">
           <div
             class="
               hover:bg-[#f0f0f0]
@@ -109,6 +115,8 @@
           >
             <a href="https://www.github.com/thehermitofcode" target="_blank">GitHub</a>
           </div>
+          </a>
+          <a href="https://www.twitter.com/kanunonso_" target="_blank">
           <div
             class="
               hover:bg-[#f0f0f0]
@@ -121,6 +129,7 @@
           >
             <a href="https://www.twitter.com/kanunonso_" target="_blank">Twitter</a>
           </div>
+          </a>
         </div>
       </section>
     </transition>
